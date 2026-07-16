@@ -1,0 +1,49 @@
+gitignore
+# --- [ Android / IntelliJ ] ---
+# ไฟล์ที่สร้างจากการ Build
+build/
+.gradle/
+/local.properties
+/captures/
+.externalNativeBuild
+.cxx
+*.apk
+*.aar
+*.jks
+*.keystore
+
+# --- [ Kotlin ] ---
+/bin/
+/gen/
+
+# --- [ IntelliJ IDEA / Android Studio ] ---
+# ไฟล์ตั้งค่าส่วนตัวของ IDE (ไม่ควรเอาขึ้น เพราะเครื่องอื่นอาจตั้งค่าต่างกัน)
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+.idea/modules.xml
+.idea/navEditor.xml
+*.iml
+.deviceExplorer
+.shelf/
+
+# --- [ OS ] ---
+# ไฟล์ขยะของระบบปฏิบัติการ
+.DS_Store
+Thumbs.db
+
+# --- [ Secrets / Config ] ---
+# หากคุณมีการใช้ API Keys ในไฟล์เหล่านี้ ให้กันไว้เสมอ
+google-services.json
+secrets.properties
+*.txt
+*.log
+
+# --- [ Gradle Wrapper ] ---
+# ปกติจะเอาขึ้นเพื่อให้คนอื่นรันคำสั่ง gradle ได้ทันที
+# แต่ถ้าต้องการความคลีนที่สุดสามารถเอาออกได้ (แต่แนะนำให้เอาไว้)
+# !gradle/wrapper/gradle-wrapper.jar

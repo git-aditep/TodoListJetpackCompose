@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="Theme.TodoListJetpackCompose" parent="android:Theme.Material.Light.NoActionBar"/>
+    <!-- สร้างสไตล์ใหม่สำหรับ Splash Screen -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- สีพื้นหลัง (เลือกใช้สีม่วงหลักของแอปคุณ) -->
+        <item name="windowSplashScreenBackground">#7B61FF</item>
+
+        <!-- รูปโลโก้ตรงกลาง (ควรเป็นเวกเตอร์) -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+    </style>
+
+    <!-- สร้างสไตล์ใหม่สำหรับ Splash Screen -->
+    <!-- <style name="Theme.App.Starting" parent="Theme.SplashScreen"> -->
+</resources>
