@@ -1,2 +1,1 @@
-"# TodoListJetpackCompose" 
-"# TodoListJetpackCompose" 
+TodoListJetpackCompose, licensed under MIT.
